@@ -10,7 +10,7 @@ const routes = [
         auth: true
     },
     {
-        path: '/auth',
+        path: '/instagram-web-clone-practise/auth',
         element: <AuthLayout/>,
         children: [
             {
