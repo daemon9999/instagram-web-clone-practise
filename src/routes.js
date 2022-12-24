@@ -5,12 +5,12 @@ import PrivateRoute from "components/PrivateRoute"
 import HomeRoute from "components/HomeRoute"
 const routes = [
     {
-        path: "/",
+        path: "/instagram-web-clone-practise",
         element: <Home/>,
         auth: true
     },
     {
-        path: '/auth',
+        path: '/instagram-web-clone-practise/auth',
         element: <AuthLayout/>,
         children: [
             {
