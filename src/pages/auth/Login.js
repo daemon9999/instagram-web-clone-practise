@@ -25,7 +25,7 @@ export default function Login() {
 
   const handleSubmit = async (values, actions) => {
     await login(values.username, values.password);
-    navigate(location.state?.return_url || "/", {
+    navigate(location.state?.return_url || "/instagram-web-clone-practise", {
       replace: true,
     });
   };
