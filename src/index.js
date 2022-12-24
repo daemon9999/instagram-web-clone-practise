@@ -4,12 +4,12 @@ import App from "./App";
 import "./tailwind.css";
 import store from "store";
 import { Provider } from "react-redux";
-import {  HashRouter } from "react-router-dom";
+import {  BrowserRouter } from "react-router-dom";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <Provider store={store}>
-    <HashRouter>
+    <BrowserRouter>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </Provider>
 );
