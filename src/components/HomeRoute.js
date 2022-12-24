@@ -5,7 +5,7 @@ export default function HomeRoute({children}) {
     const user = useSelector(state => state.auth.user)
     const location = useLocation()
     if (user){
-        return <Navigate to="/instagram-web-clone-practise"  replace={true} state={{
+        return <Navigate to="/"  replace={true} state={{
             return_url: location.pathname
         }}
         />
