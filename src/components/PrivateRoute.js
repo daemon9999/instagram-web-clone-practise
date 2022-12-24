@@ -5,7 +5,7 @@ export default function PrivateRoute({children}) {
     const user = useSelector(state => state.auth.user)
     const location = useLocation()
     if (!user){
-        return <Navigate to="/instagram-web-clone-practise/auth/login" replace={true} state={{
+        return <Navigate to="/auth/login" replace={true} state={{
             return_url: location.pathname
         }} />
     }
